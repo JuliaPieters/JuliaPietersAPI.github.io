@@ -2,7 +2,7 @@
 function hero(){
     let randomNumber = Math.round(Math.random() * 500);
 
-    fetch('https://juliapietersapi.onrender/api/' + randomNumber, {
+    fetch('/api/' + randomNumber, {
         headers: {
             Accept:
                 "application/json; charset=utf-8",
