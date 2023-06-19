@@ -2,7 +2,7 @@
 function hero(){
     let randomNumber = Math.round(Math.random() * 500);
 
-    fetch('/api/' + randomNumber, {
+    fetch('https://superheroapi.com/api/773235737808485/' + randomNumber, {
         headers: {
             Accept:
                 "application/json; charset=utf-8",
